@@ -57,7 +57,7 @@ const Skills = () => {
   return (
     <div id="skills" className="w-full">
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
-        <h2 className="text-5xl md:text-5xl tracking-wider uppercase text-blue-500 font-bold">
+        <h2 className="text-5xl md:text-5xl tracking-wider uppercase text-blue-500 font-bold pb-16">
           Skills
         </h2>
 

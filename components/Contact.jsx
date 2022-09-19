@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div id="contact" className="w-full">
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
-        <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold">
+        <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold pb-16">
           contact
         </h2>
 
@@ -21,15 +21,15 @@ const Contact = () => {
               className="rounded-xl"
             />
             <br />
-            <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
+            <div className="grid grid-cols-2 mx-auto w-4/5 gap-10" >
             <Link href="https://www.linkedin.com/in/rohanfarzana/">
             
-              <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer">
+              <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer mt-16">
                 <FaLinkedin size={25} />
               </div>
               </Link>
               <Link href="https://github.com/rohan-fa">
-              <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer">
+              <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer mt-16">
                 <FaGithub size={25} />
               </div>
             </Link>
