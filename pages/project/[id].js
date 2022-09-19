@@ -15,7 +15,7 @@ const projects = [
     id: 0,
     title: "Real-Estate-App",
     imageSrc: realestate,
-    url: "Real-Estate-App",
+    url: "Real-Estate",
     Description: "Real estate website visitors can easily filter their searches by type, location, price, and other predefined and custom criteria.",
     link1: "https://real-estate-app-eosin.vercel.app/",
     link2: "https://github.com/rohan-fa/real-estate-app",
