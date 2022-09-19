@@ -16,24 +16,28 @@ const Projects = () => {
       title: "Real-Estate-App",
       imageSrc: realestate,
       url: "Real-Estate",
+      skills: "Next.js,  Chakra-UI,  React.js,  Supabase",
     },
     {
       id: 2,
       title: "Geogusser (Group Project)",
       imageSrc: geo,
-      url: "Geogusser ",
+      url: "Geogusser",
+      skills: "React.js, Supabase, Tailwind.css",
     },
     {
       id: 3,
       title: "E-commerce shopping",
       imageSrc: ecom,
       url: "E-commerce shopping",
+      skills: "Ruby on Rails, HTML, CSS, JavaScript, JQuery, Bootstrap",
     },
     {
       id: 4,
       title: "Tic Tac Toe",
       imageSrc: tic,
       url: "Tic Tac Toe",
+      skills: "HTML, CSS, JavaScript, JQuery",
     },
   ];
 
@@ -45,7 +49,7 @@ const Projects = () => {
         </h2>
 
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
-          {projects.map(({ id, title, imageSrc, url }) => (
+          {projects.map(({ id, title, imageSrc, skills, url }) => (
             <Link key={id} href={`/project/${url}`}>
               <div className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md">
                 <Image
@@ -54,8 +58,11 @@ const Projects = () => {
                   className="rounded-md duration-200 
                   hover:scale-110"
                 />
-                <h2 className="text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4">
+                <h2 className="text-center text-base capitalize my-4 font-light duration-200">
                   {title}
+                  <br />
+                  <br />
+                  {skills}
                 </h2>
               </div>
             </Link>

@@ -19,7 +19,7 @@ const AboutMe = () => {
           I previously studied for a bachelor of science in electrical and electronics engineering at American International University-Bangladesh. I have over a year of experience in the textile industry in Bangladesh as a maintenance engineer. As I already have an engineering background which has taught me how to turn disorganized environments into smooth-running operations and overhaul administrative processes to improve technical efficiency.
           </p>
           <p className="py-4 max-w-2xl mx-auto">
-          As I transition my career into tech, I look to bring these skills across, combined with the full-stack technical skills learned from General Assembly, to be a creative, collaborative, self-motivated Software Engineer.
+          As I transition my career into Software Engineering, I look to bring these skills across, combined with the full-stack technical skills learned from General Assembly, to be a creative, collaborative, self-motivated Software Engineer.
           </p>
         </div>
 
