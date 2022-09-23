@@ -80,7 +80,7 @@ const OneProject = ({project: {title, imageSrc, Description, link2, link1 }}) =>
     <div className="h-fit w-full text-center">
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-8 flex flex-col">
         <div className="flex">
-          <Link href="/project">
+          <Link href="/#projects">
             <div className="flex items-center justify-center my-8 text-indigo-500 font-bold capitalize cursor-pointer">
               <BiChevronLeft size={25} /> back
             </div>

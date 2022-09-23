@@ -38,6 +38,7 @@ const Projects = () => {
     },
   ];
 
+  console.log(projects);
   return (
     <div id="projects" className="w-full">
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
