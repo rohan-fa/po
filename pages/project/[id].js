@@ -12,10 +12,10 @@ import Image from "next/image";
 
 const projects = [
   {
-    id: 0,
+    id: 1,
     title: "Real-Estate-App",
     imageSrc: realestate,
-    url: "Real-Estate",
+    url: "Real_Estate",
     Description: "Real estate website visitors can easily filter their searches by type, location, price, and other predefined and custom criteria.",
     // skills: "Next.js,  Chakra-UI,  React.js,  Supabase",
     link1: "https://real-estate-app-eosin.vercel.app/",
@@ -23,7 +23,7 @@ const projects = [
     
   },
   {
-    id: 1,
+    id: 2,
     title: "Geogusser (Group Project)",
     imageSrc: geo,
     url: "Geogusser",
@@ -33,20 +33,20 @@ const projects = [
     link2: "https://github.com/rohan-fa/project2-client",
   },
   {
-    id: 2,
+    id: 3,
     title: "E-commerce shopping",
     imageSrc: ecom,
-    url: "E-commerce shopping",
+    url: "E_commerce_shopping",
     Description: "A Web application platform that allows users to choose the products and shop",
     //skills: "Ruby on Rails, HTML, CSS, JavaScript, JQuery, Bootstrap",
     link1: "https://shoplify-with-me.herokuapp.com/",
     link2: "https://github.com/rohan-fa/project1",
   },
   {
-    id: 3,
+    id: 4,
     title: "Tic Tac Toe",
     imageSrc: tic,
-    url: "Tic Tac Toe",
+    url: "Tic_Tac_Toe",
     Description: "This is human vs human game play. The result is displaying after if the match draw and if the match won by any of the player, the winner is displayed.",
     // skills: "HTML, CSS, JavaScript, JQuery",
     link1: "https://rohan-fa.github.io/project00/",
@@ -75,7 +75,7 @@ export async function getStaticProps({ params }) {
   };
 }
 
-const OneProject = ({project: {title, imageSrc, Description, link1, link2 }}) => {
+const OneProject = ({project: {title, imageSrc, Description, link2, link1 }}) => {
   return (
     <div className="h-fit w-full text-center">
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-8 flex flex-col">
@@ -109,7 +109,7 @@ const OneProject = ({project: {title, imageSrc, Description, link1, link2 }}) =>
               </span>
             </div>
             </Link>
-
+            
             <Link href={link2}>
             <div className="group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
               github

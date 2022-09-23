@@ -24,7 +24,7 @@ const AboutMe = () => {
         </div>
 
         <div className="flex items-center justify-center gap-10">
-          <Link href="https://drive.google.com/file/d/1JRZzpNfgj3uyoXMzVPcshTJwJYD_F09q/view?usp=sharing" download={true}>
+          <Link href="https://drive.google.com/file/d/1DmaRE8tejKhKSmEFgIfNSCqzNXptVbrt/view" download={true}>
             <div className="group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
               resume
               <span className="-rotate-90 duration-100 ease-in group-hover:rotate-0">

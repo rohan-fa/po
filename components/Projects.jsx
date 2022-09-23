@@ -1,7 +1,4 @@
 import React from "react";
-
-import { MdExpandMore } from "react-icons/md";
-
 import ecom from "../public/assets/portfolio/ecom.jpg";
 import tic from "../public/assets/portfolio/tic.jpg";
 import geo from "../public/assets/portfolio/geo.jpg";
@@ -15,7 +12,7 @@ const Projects = () => {
       id: 1,
       title: "Real-Estate-App",
       imageSrc: realestate,
-      url: "Real-Estate",
+      url: "Real_Estate",
       skills: "Next.js,  Chakra-UI,  React.js,  Supabase",
     },
     {
@@ -29,14 +26,14 @@ const Projects = () => {
       id: 3,
       title: "E-commerce shopping",
       imageSrc: ecom,
-      url: "E-commerce shopping",
+      url: "E_commerce_shopping",
       skills: "Ruby on Rails, HTML, CSS, JavaScript, JQuery, Bootstrap",
     },
     {
       id: 4,
       title: "Tic Tac Toe",
       imageSrc: tic,
-      url: "Tic Tac Toe",
+      url: "Tic_Tac_Toe",
       skills: "HTML, CSS, JavaScript, JQuery",
     },
   ];
