@@ -5,8 +5,8 @@ import css from "../public/assets/experience/css.png";
 import javascript from "../public/assets/experience/javascript.png";
 import reactImage from "../public/assets/experience/react.png";
 import nextjs from "../public/assets/experience/nextjs.png";
-import tailwind from "../public/assets/experience/html.png";
-import graphql from "../public/assets/experience/graphql.png";
+import supa from "../public/assets/experience/supa.png";
+import ruby from "../public/assets/experience/ruby.png";
 import node from "../public/assets/experience/node.png";
 import Image from "next/image";
 
@@ -34,18 +34,18 @@ const Skills = () => {
     },
     {
       id: 5,
-      title: "Next JS",
+      title: "NextJS",
       src: nextjs,
     },
     {
       id: 6,
-      title: "Tailwind",
-      src: tailwind,
+      title: "Supabase",
+      src: supa,
     },
     {
       id: 7,
-      title: "GraphQL",
-      src: graphql,
+      title: "Ruby On Rails",
+      src: ruby,
     },
     {
       id: 8,

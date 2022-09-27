@@ -17,9 +17,9 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Geogusser (Group Project)",
+      title: "GeoGuessr (Group Project)",
       imageSrc: geo,
-      url: "Geogusser",
+      url: "GeoGuessr",
       skills: "React.js, Supabase, Tailwind.css",
     },
     {

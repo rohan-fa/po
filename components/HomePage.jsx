@@ -1,5 +1,5 @@
 import React from "react";
-
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdExpandMore } from "react-icons/md";
 
 import Link from "next/link";
@@ -16,14 +16,19 @@ const HomePage = () => {
         <p className="text-gray-600 text-xl max-w-sm mx-auto">
           Hi, I am a web developer from Sydney. I enjoy building from small apps to rich interactive web apps. Welcome to my corner of the internet. I'm glad you're here.
         </p>
-        <Link href="/#me">
-          <div className="group flex items-center justify-center my-6 bg-blue-500 text-white px-5 py-2 font-bold uppercase rounded-md tracking-wider cursor-pointer">
-            Get in Touch!
-            <span className="-rotate-90 duration-100 ease-in group-hover:rotate-0">
-              <MdExpandMore size={25} />
-            </span>
-          </div>
-        </Link>
+        <div className="grid grid-cols-2 mx-auto w-0/5 gap-20" >
+            <Link href="https://www.linkedin.com/in/rohanfarzana/">
+            
+              <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-5 cursor-pointer mt-30">
+                <FaLinkedin size={25} />
+              </div>
+              </Link>
+              <Link href="https://github.com/rohan-fa">
+              <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-5 cursor-pointer mt-30">
+                <FaGithub size={25} />
+              </div>
+            </Link>
+            </div>
       </div>
     </div>
   );

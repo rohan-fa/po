@@ -24,9 +24,9 @@ const projects = [
   },
   {
     id: 2,
-    title: "Geogusser (Group Project)",
+    title: "GeoGuessr (Group Project)",
     imageSrc: geo,
-    url: "Geogusser",
+    url: "GeoGuessr",
     Description: "the game is you are place randomly across anywhere in the world in google street view and you basically guess where you are. Once you make that guess you'll gain points based on how close you are to the correct location.",
     // skills: "React.js, Supabase, Tailwind.css",
     link1: "https://geowhere.netlify.app/",
