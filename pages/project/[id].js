@@ -16,8 +16,8 @@ const projects = [
     title: "Real-Estate-App",
     imageSrc: realestate,
     url: "Real_Estate",
-    Description: "Real estate website visitors can easily filter their searches by type, location, price, and other predefined and custom criteria.",
-    // skills: "Next.js,  Chakra-UI,  React.js,  Supabase",
+    Description: "Real Estate Application visitors can buy, sell or rent. Visitors can easily filter their searches by type, location, price, and other predefined and custom criteria. Each property has a detailed description, community and property features, location, price, and a great image gallery. In addition, buyers of real estate can find contacts of sellers.",
+    skills: "Skills: Next.js,  Chakra-UI,  React.js,  Supabase",
     link1: "https://real-estate-app-eosin.vercel.app/",
     link2: "https://github.com/rohan-fa/real-estate-app",
     
@@ -28,7 +28,7 @@ const projects = [
     imageSrc: geo,
     url: "GeoGuessr",
     Description: "the game is you are place randomly across anywhere in the world in google street view and you basically guess where you are. Once you make that guess you'll gain points based on how close you are to the correct location.",
-    // skills: "React.js, Supabase, Tailwind.css",
+    skills: "Skills: React.js, Supabase, Tailwind.css",
     link1: "https://geowhere.netlify.app/",
     link2: "https://github.com/rohan-fa/project2-client",
   },
@@ -37,8 +37,8 @@ const projects = [
     title: "E-commerce shopping",
     imageSrc: ecom,
     url: "E_commerce_shopping",
-    Description: "A Web application platform that allows users to choose the products and shop",
-    //skills: "Ruby on Rails, HTML, CSS, JavaScript, JQuery, Bootstrap",
+    Description: "Ruby On Rails Application allows users to select the category of the products. Each category contains multiple products suitable for that specific category. Users can visit the sections and choose the items. Each product has detailed specifications of Name, Price, and Descriptions. Admin is allowed to modify the products in the store, add new products, and remove products. In addition, the admin can see the user's id. This app has sign-in and sign-out functionality if someone puts the wrong information that indicates invalid details.",
+    skills: "Skills: Ruby on Rails, HTML, CSS, JavaScript, JQuery, Bootstrap",
     link1: "https://shoplify-with-me.herokuapp.com/",
     link2: "https://github.com/rohan-fa/project1",
   },
@@ -48,7 +48,7 @@ const projects = [
     imageSrc: tic,
     url: "Tic_Tac_Toe",
     Description: "This is human vs human game play. The result is displaying after if the match draw and if the match won by any of the player, the winner is displayed.",
-    // skills: "HTML, CSS, JavaScript, JQuery",
+    skills: "Skills: HTML, CSS, JavaScript, JQuery",
     link1: "https://rohan-fa.github.io/project00/",
     link2: "https://github.com/rohan-fa/project00",
   },
@@ -75,7 +75,7 @@ export async function getStaticProps({ params }) {
   };
 }
 
-const OneProject = ({project: {title, imageSrc, Description, link2, link1 }}) => {
+const OneProject = ({project: {title, imageSrc, Description, skills, link2, link1 }}) => {
   return (
     <div className="h-fit w-full text-center">
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-8 flex flex-col">
@@ -95,9 +95,9 @@ const OneProject = ({project: {title, imageSrc, Description, link2, link1 }}) =>
         <p className="py-4 max-w-5xl mx-auto">
           {Description}
         </p>
-        {/* <h2 className="text-center mx-auto font-bold">
+        <h2 className="text-center mx-auto font-bold">
           {skills}
-        </h2> */}
+        </h2>
        
         
         <div className="flex items-center justify-center gap-10">
